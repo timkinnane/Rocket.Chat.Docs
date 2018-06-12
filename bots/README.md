@@ -25,7 +25,7 @@ To contribute to features under development see our
 
 These are the basic steps for using bots with Rocket.Chat.
 
-1. A bot user must be [created by an admin](creating-bot-users/) on the server
+1. A bot user must be [created by an admin](bots-management) on the server
 2. The bot is run as [a separate process](bots-architecture/) using your chosen framework or platform
 3. The bot environment must be pre-configured by [setting environment variables](configure-bot-environment/)
 4. You provide scripts to define the bot's behaviour according to the requirements of your framework
@@ -35,7 +35,7 @@ These are the basic steps for using bots with Rocket.Chat.
 
 - [Bots FAQ](bots-faq/)
 - [Bots Architecture](bots-architecture/)
-- [Creating Bot Users](creating-bot-users/)
+- [Bots Management](bots-management/)
 - [Configuring the Bot Environment](configure-bot-environment/)
 - [Running a Hubot Bot](running-a-hubot-bot/)
 - [Running a Botkit Bot](running-a-botkit-bot/)

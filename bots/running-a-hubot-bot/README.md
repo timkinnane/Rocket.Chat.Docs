@@ -57,8 +57,8 @@ export ROCKETCHAT_USESSL=true
 ```
 
 Adjust the content to fit your server and user credentials. Make sure `myuser`
-has **BOT role** on the server, if you don't know what that means,
-[click here](../creating-bot-users).
+has **BOT type** on the server, if you don't know what that means,
+[click here](../bots-management).
 
 Then run the bot:
 

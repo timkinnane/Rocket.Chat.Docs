@@ -405,7 +405,7 @@ Here you can also find what articles are incomplete and missing.
 - Bots:
     - Bots FAQ
     - Bots Architecture
-    - Creating Bot Users
+    - Bots Management
     - Configure Bot Environment
     - Running a Hubot Bot
     - Running a Botkit Bot

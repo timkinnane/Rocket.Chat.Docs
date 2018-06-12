@@ -5,9 +5,10 @@
 Bots (aka Chatbots) are pieces of software that provide automated messaging in a
 chat platform. They are useful for running scripted interactions to provide
 support, conversational workflow or on-boarding and can be integrated with
-external services. In Rocket.Chat, each bot has a user account that it logs in
-with just like a human. We give these users a `bot` role so that its nature is
-obvious to other users and it can have specific permissions.
+external services. In Rocket.Chat, each bot has an user account that it logs in
+with just like a human. These accounts have the value `bot` set in their `type`
+attribute that is then seen by the rest of the system. This way it is obvious
+to other users and different bots can have different permissions.
 
 ## What kinds of bots work with Rocket.Chat?
 
