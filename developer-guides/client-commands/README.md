@@ -4,6 +4,14 @@ Client Commands is a collection used to send _commands_ from the server to the c
 
 The main goal is to ease the process of managing bot accounts, so its intended use is to send low-level directives to be interpreted by the client and not the user, such as clearing cache at the SDK or Adapter level or sending a `heartbeat` clientCommand that is instantly responded, in order to check aliveness.
 
+## Background
+
+This feature was created to meet new architectural demands when the relationship between Rocket.Chat and bots (and potentially other externally hosted apps consuming the JS SDK). Bots could always subscribe to message streams and call methods and API endpoints on the server, but Rocket.Chat had no utility to initiate any action on the bot that wasn’t simply a response to incoming messages.
+
+To create a bot management UI within Rocket.Chat, that could request data from bots, pause and resume bot responses and open further potential for centralised management of bots operating in a Rocket.Chat instance, we required a new way to utilise the existing DDP connection that was common to existing bots (via the JS SDK).
+
+These methods, for the server to send and the client to reply to commands issued via a subscription are to be implemented at the SDK and possibly adapter level, to provide new features for Rocket.Chat, not so much to the bots themselves. Bot creators don’t need to understand how it operates and it doesn’t change how bots are built on any existing supported frameworks or platforms.
+
 ## Specification
 
 ### `RocketChat.sendClientCommand(user, command)`
