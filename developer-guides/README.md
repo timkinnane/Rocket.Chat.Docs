@@ -8,6 +8,7 @@
 - [REST API](rest-api/)
 - [Iframe Integration](iframe-integration/)
 - [Realtime API](realtime-api/)
+- [Client Commands](client-commands/)
 - [Testing](testing/)
 - [Troubleshooting](troubleshooting/)
 - [Deprecation](deprecation/)

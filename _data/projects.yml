@@ -44,6 +44,7 @@
   pages:
     Quick Start: quick-start/
     Branches and Releases: branches-and-releases/
+    Client Commands: client-commands/
     Testing: testing/
     Rest API: rest-api/
     Realtime API: realtime-api/
@@ -58,7 +59,7 @@
     Bots Architecture: bots-architecture/
     Bots FAQ: bots-faq/
     Configuring Bots: configure-bot-environment/
-    Creating Bots Users: creating-bot-users/
+    Bots Management: bots-management/
 
 -
   name: Contributing

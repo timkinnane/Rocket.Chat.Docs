@@ -240,6 +240,7 @@ Here you can also find what articles are incomplete and missing.
             - Stream Room Messages
         - The Message Object
         - The Room Object
+        - Client Commands
         - Livechat API:
             - getInitialData
             - registerGuest
